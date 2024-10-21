@@ -1,14 +1,20 @@
-![Install Dependencies](https://github.com/haobo-yuan/IDS706-6-Complex-SQL/actions/workflows/install.yml/badge.svg)
-![Format Code](https://github.com/haobo-yuan/IDS706-6-Complex-SQL/actions/workflows/format.yml/badge.svg)
-![Lint Code](https://github.com/haobo-yuan/IDS706-6-Complex-SQL/actions/workflows/lint.yml/badge.svg)
-![Run Tests](https://github.com/haobo-yuan/IDS706-6-Complex-SQL/actions/workflows/test.yml/badge.svg)
+![Install Dependencies](https://github.com/haobo-yuan/IDS706-7-PyPackage/actions/workflows/install.yml/badge.svg)
+![Format Code](https://github.com/haobo-yuan/IDS706-7-PyPackage/actions/workflows/format.yml/badge.svg)
+![Lint Code](https://github.com/haobo-yuan/IDS706-7-PyPackage/actions/workflows/lint.yml/badge.svg)
+![Run Tests](https://github.com/haobo-yuan/IDS706-7-PyPackage/actions/workflows/test.yml/badge.svg)
 
-# IDS-706 Data Engineering: Project 6
-This is a IDS-706 week 6 project that tries to explore Complex SQL Query for a MySQL Database (Can be any external database including DynamoDB, Databricks, or even Neo4j).
+# IDS-706 Data Engineering: Project 7
+This is a IDS-706 week 7 project that tries to explore Package a Python Script into a Command-Line Tool and a Complex SQL Query.
 
-- Design a complex SQL query involving joins, aggregation, and sorting
+- Package a Python script with setuptools or a similar tool
 
-- Provide an explanation for what the query is doing and the expected results
+- Include a user guide on how to install and use the tool
+
+- Include communication with an external database: Databricks
+
+# User Guide
+
+
 
 ## Project Description
 
@@ -16,7 +22,7 @@ Here is a brief overview roadmap of the project
 
 ![roadmap](pictures/Roadmap.png)
 
-Here is a demo video show you a detailed explanation of this project.
+Here is a demo video show you a detailed explanation of this roadmap.
 
 [![Watch the video](https://img.youtube.com/vi/tp5cN8F3yIM/hqdefault.jpg)](https://youtu.be/tp5cN8F3yIM)
 

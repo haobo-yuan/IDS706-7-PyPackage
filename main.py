@@ -6,14 +6,19 @@ ETL-Query script
 from mylib.transform_load import load
 from mylib.query import query
 
-# Extract
-# print("Extracting data...")
-# extract()
+def main():
 
-# Transform and load
-print("Transforming data...")
-load()
+    # Extract
+    # print("Extracting data...")
+    # extract()
 
-# Query
-print("Querying data...")
-query()
+    # Transform and load
+    print("Transforming data...")
+    load()
+
+    # Query
+    print("Querying data...")
+    query()
+
+if __name__ == "__main__":
+    main()
