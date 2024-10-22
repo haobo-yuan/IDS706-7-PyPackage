@@ -3,7 +3,8 @@ from setuptools import setup, find_packages
 setup(
     name="IDS706_7_PyPackage",  # package name
     version="0.1",
-    packages=find_packages(),  # automatically find packages
+    # packages=find_packages(),  # automatically find packages
+    py_modules=['main'],
     entry_points={
         'console_scripts': [
             'run_main=main:main',  # Invoke the main function in main.py by running the command run_main
@@ -11,7 +12,7 @@ setup(
     },
     install_requires=[  # specify the dependencies
         'pandas',
-        'dotenv',
+        'python-dotenv',
         'databricks',
     ],
     include_package_data=True,

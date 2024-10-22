@@ -6,7 +6,13 @@ ETL-Query script
 from mylib.transform_load import load
 from mylib.query import query
 
+import os
+import sys
+
+
 def main():
+
+    sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
     # Extract
     # print("Extracting data...")

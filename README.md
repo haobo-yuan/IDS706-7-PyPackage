@@ -12,9 +12,75 @@ This is a IDS-706 week 7 project that tries to explore Package a Python Script i
 
 - Include communication with an external database: Databricks
 
-# User Guide
+## User Guide
 
+### Prerequisites
+Ensure that you have Python 3 installed on your machine. You can download it from [Python's official website](https://www.python.org/downloads/).
 
+### Installation with `setup.py`
+To install the package locally, follow these steps:
+
+1. Clone the repository:
+   \```bash
+   git clone https://github.com/haobo-yuan/IDS706-7-PyPackage.git
+   cd IDS706-7-PyPackage
+   \```
+
+2. Install the package using `setup.py`:
+   \```bash
+   pip install .
+   \```
+
+3. Once installed, you can run the command-line tool using:
+   \```bash
+   run_main
+   \```
+
+### Packaging and Testing
+If you want to create the distribution files and test them on your machine:
+
+1. **Build the package**:
+   \```bash
+   python setup.py sdist bdist_wheel
+   \```
+
+   This will create a `dist` folder containing the `.whl` and `.tar.gz` files.
+
+2. **Install the package locally from the built `.whl` file**:
+   \```bash
+   pip install dist/IDS706_7_PyPackage-0.1-py3-none-any.whl
+   \```
+
+3. **Test the command**:
+   After installation, run:
+   \```bash
+   run_main
+   \```
+
+### Direct Download and Installation of the `.whl` File
+If you have downloaded the `.whl` file directly, follow these steps to install and use it:
+
+1. **Download the `.whl` file**: [IDS706_7_PyPackage-0.1-py3-none-any.whl](https://github.com/haobo-yuan/IDS706-7-PyPackage/releases/download/v0.1/IDS706_7_PyPackage-0.1-py3-none-any.whl)
+
+2. **Install the downloaded `.whl` file**:
+   \```bash
+   pip install IDS706_7_PyPackage-0.1-py3-none-any.whl
+   \```
+
+3. **Run the command**:
+   \```bash
+   run_main
+   \```
+
+### Notes
+- Make sure you have all dependencies installed as mentioned in the `setup.py`.
+- For development purposes, you can modify the code and rebuild the package as needed.
+
+---
+
+**Below is historical information about the project.**
+
+---
 
 ## Project Description
 
